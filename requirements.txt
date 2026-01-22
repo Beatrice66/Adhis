@@ -1,8 +1,9 @@
 streamlit
 tensorflow
 numpy
-opencv-python-headless
-
+opencv-python-headless # Use headless for server environments
 Pillow
+google-cloud-storage
+
 
 
