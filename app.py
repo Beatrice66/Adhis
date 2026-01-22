@@ -1,4 +1,4 @@
-%%writefile app.py
+
 import streamlit as st
 import tensorflow as tf
 import numpy as np
@@ -104,3 +104,4 @@ if uploaded_file is not None:
                 st.error(f"Error during prediction: {e}")
         else:
             st.warning("Model not loaded. Cannot make predictions.")
+
